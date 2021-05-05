@@ -1,0 +1,21 @@
+gcc -fopenmp -O2 q2.c -o floyd
+./floyd < testcases/Q2/t6 > temp
+diff temp testcases/Q2out/t6
+./floyd < testcases/Q2/t19 > temp
+diff temp testcases/Q2out/t19
+./floyd < testcases/Q2/t29 > temp
+diff temp testcases/Q2out/t29
+./floyd < testcases/Q2/t31 > temp
+diff temp testcases/Q2out/t31
+./floyd < testcases/Q2/t43 > temp
+diff temp testcases/Q2out/t43
+./floyd < testcases/Q2/t49 > temp
+diff temp testcases/Q2out/t49
+./floyd < testcases/Q2/t75 > temp
+diff temp testcases/Q2out/t75
+./floyd < testcases/Q2/t77 > temp
+diff temp testcases/Q2out/t77
+./floyd < testcases/Q2/t78 > temp
+diff temp testcases/Q2out/t78
+./floyd < testcases/Q2/t91 > temp
+diff temp testcases/Q2out/t91
