@@ -1,4 +1,4 @@
-gcc -fopenmp -O2 q2.c -o floyd
+gcc -fopenmp -O2 code.c -o floyd
 ./floyd < testcases/Q2/t6 > temp
 diff temp testcases/Q2out/t6
 ./floyd < testcases/Q2/t19 > temp
