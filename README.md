@@ -4,7 +4,6 @@
 * Ayush Sharma
 * 2019101004
 
-
 **Floyd–Warshall algorithm** is an algorithm for finding shortest paths in a directed weighted graph with positive or negative edge weights. A single execution of the algorithm will find the lengths of shortest paths between all pairs of vertices.
 
 
@@ -30,6 +29,8 @@ Final Total time:
 * ~15s on my machine
 
 ### Process for previous version optimisation
+
+**NOTE:** Refer https://github.com/ayushsharma-crypto/Optimizing-Techniques for detailed explanation.
 
 * Converted 2-D array for storing adjacency matrix into 1-D. Then for accessing `A[i][j]` we used pointer notation `(*(A + i*V + j))`, with keeping in mind the fact that generally 2-D matrices are stored in Row Major format in main memory.
 * Pointer accesing to memory Restricted pointer access instead of array look-ups.
